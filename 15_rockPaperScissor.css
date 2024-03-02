@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-image: url("Js_images/360_F_193960839_iqw2Gpqh5RWYcd521hwWmtScvH7R5Une.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::before{
+    opacity: 2;
+}
+
+h1{
+    background-color: #081b31;
+    color:White;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice{
+    height:165px;
+    width:165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top:3rem;
+}
+
+.choice:hover{
+    /* opacity:0.5; */
+    cursor:pointer;
+    background-color: #081b31;
+}
+
+.score-board{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    gap:5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 3rem; 
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg1{
+    background-color: #081b31;
+    color: white;
+    font-size: 1rem;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+#reset-btn{
+    margin-top: 2rem;
+    height: 2rem;
+    width:8rem;
+    /* background-image: linear-gradient(rgb(14, 13, 102),rgb(255, 0, 0),rgb(133, 10, 138)); */
+    background-color: aliceblue;
+    color: #081b31;
+    font-weight: 600;
+    border-radius: 2rem; 
+    cursor: pointer;
+}
+
+#tip{
+    font-size:x-small;
+    font-weight: 800;
+    color: #081b31;
+}
+
+#msg2{
+    color: #081b31;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-image: linear-gradient(black,red,rgb(210, 167, 174)); */
+    /* color:transparent;
+    background-clip: text; */
+    text-shadow: 0 0 1px #FF0000, 0 4px 5px #00ff59;
+
+}   
+
+.hide{
+    display: none;
+}
+
+
+
